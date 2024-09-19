@@ -1,0 +1,96 @@
+@font-face{
+    font-family:heada;
+    src :url(/Heading-Now-Variable.ttf);
+}
+*{
+
+    margin: 0;
+    padding: 0;
+    
+}
+html, body{
+       height: 100%;
+       width: 100%;
+       box-sizing: border-box;
+       background-color: rgb(0, 0, 0);
+       color: white;
+
+
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0);
+
+}
+#nav{
+    width: 100%;
+    height: 120px;
+    /* background-color: aquamarine; */
+
+}
+#page1{
+    overflow: hidden;
+    min-width: 100%;
+    position: relative;
+    display: flex;
+    height: 100%;
+    /* background-color: brown; */
+
+}
+#page1 h1{
+font-size:40vw;
+letter-spacing: 16px;
+position: relative;
+font-weight: 700;
+padding-bottom: 2% ;
+font-family: heada;
+white-space: nowrap;
+font-stretch: 250%;
+/* bottom: 22%; */
+text-transform: uppercase;
+}
+.extra{
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(165, 238, 200);
+scale:0.4;
+left:-150vw;
+opacity: 0;
+z-index: 98;
+
+}
+/* .extra h1{
+font-family: heada;
+font-size: 10vw;
+font-weight: 1000;
+letter-spacing: 10px;
+font-stretch: 250%;
+    
+} */
+
+#loader{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(234, 236, 221);
+    z-index: 99;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#loader h1 {
+    font-size: 10vw;
+    font-family:heada;
+    color: black;
+    font-weight: 1000;
+    letter-spacing: 10px;
+font-stretch: 250%;
+
+}

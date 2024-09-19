@@ -1,0 +1,158 @@
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #000;
+    color: white;
+    font-family: 'Alef', sans-serif;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+nav {
+    padding: 0 1.5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    height: 100px;
+    text-transform: uppercase;
+}
+
+nav img {
+    height: 60px;
+    opacity: 1;
+
+}
+
+.nav1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    opacity: 1;
+
+}
+
+.nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 12px 17px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 6px;
+    border :none
+}
+
+
+#main {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    margin-top: 60px;
+    z-index: 90;
+
+
+}
+
+#main h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+
+
+
+}
+
+#main h1 span {
+    font-family: sans-serif;
+    align-items: center;
+    font-size: 30px;
+    padding: 27px 40px;
+    border: 2px solid white;
+    margin: 25px;
+    border-radius: 60px;
+    background-color: brown;
+}
+
+#main img {
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 4%;
+}
+
+#image1 {
+    height: 250px;
+    width: 200px;
+    top: -30px;
+    left: 8%;
+}
+
+#image2 {
+    bottom: -95px;
+    right: 4%;
+    width: 340px;
+    height: 200px;
+}
+
+#image3 {
+    top: -5px;
+    right: 18%;
+    z-index: -1;
+
+    width: 200px;
+    height: 250px;
+}
+
+#image4 {
+    height: 200px;
+    width: 330px;
+    bottom: -30px;
+    left: 18%;
+    z-index: -1;
+    object-fit: contain;
+    object-position: bottom;
+}
+
+#scroll {
+    position: absolute;
+    bottom: 4%;
+    right: 45%;
+
+}
+
+#scroll h1 {
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+
+}
+.effect1:hover{
+    color: rgb(159, 41, 159);
+}
+.effect2:hover{
+    color: rgb(218, 79, 19);
+}
+.effect3:hover{
+    background-color: rgb(218, 79, 19);
+    border:none
+}
